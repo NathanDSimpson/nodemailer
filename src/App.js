@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import contactForm from './components/contactForm'
+import ContactForm from './components/ContactForm'
 
 function App() {
   return (
     <div className="App">
-      <contactForm></contactForm>
+      <ContactForm></ContactForm>
     </div>
   );
 }

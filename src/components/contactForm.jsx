@@ -1,6 +1,7 @@
-import react, {Component} from 'react'
+import React, {Component} from 'react'
+import axios from 'axios'
 
-class contactForm extends Component{
+class ContactForm extends Component{
 
     handleSubmit(e){
         e.preventDefault();
@@ -47,3 +48,5 @@ class contactForm extends Component{
         )
     }
 }
+
+export default ContactForm
